@@ -10,17 +10,11 @@ window.requestAnimFrame = (function() {
 })();
 
 var space = "                         ";
-var txt = "If debugging is the process of removing software bugs, then programming must be the process of putting them in." +
-  " - Edsger Dijkstra " + space + "The best method for accelerating a computer is the one that boosts it by 9.8 m/s2.  - Anonymous " +
+var txt = "We are Black Hat , We are Bound By Blood ." +
+  " - BlackHat India " + space + "We are The Titans,  not Human ." +
   space +
-  "Walking on water && developing software from a specification are easy if both are frozen.  - Edward V Berard" +
-  space + " First, solve the problem. Then, write the code. - John Johnson" + space +
-  "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time. - Tom Cargil" + space +
-  "Copy && paste is a design error." +
-  " - David Parnas" + space +
-  " Any code of your own that you haven't looked at for six or more months might as well have been written by someone else. " +
-  " - Eagleson's law" + space +
-  "It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free. - Steve McConnell" + space;
+  "We are Unknown . we are Indians ." +
+  space + " - BlackHat India " + space;
 
 var hCell = 160;
 var vCell = 30;
