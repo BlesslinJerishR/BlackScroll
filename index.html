@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
     <!-- To Set Title Bar Icon Image -->
     <link rel="icon" href="/alarm.png" sizes="32x32" type="image/png">
     <title>Black Scroll</title>
+    <link href="http://fonts.cdnfonts.com/css/jonathan" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <video height="120%" autoplay style="position: absolute;left: -10px !important;">
+    <source src="libs/hack.mp4" type="video/mp4" style="z-index: -1;">
+    </video>
+    <img src="libs/india.png" alt="India" srcset="" style="position: absolute; height: 100px;">
+    <p style="position: absolute; font-family: 'Jonathan', sans-serif; left: -42%; font-size: 60px; transform: rotateY(0deg) rotate(-25deg); /* needs Y at 0 deg to behave properly*/
+    transition: transform 2s;">BlackHat</p>
     <table>
         <tbody>
             <tr>
             <td></td>
             <td>
-                <div id="led" style="position: relative; top: 280px !important;"></div>
+                <div id="led" style="position: absolute; top: 43% !important;"></div>
             </td>
         </tr>
         </tbody>
         </table>
     <canvas></canvas>
-    <p style="position: relative; top: 310px !important; font-size: 44px !important;">Developer : Mastermindx33</p>
+    <p style="position: absolute; bottom: -45px !important; font-size: 44px !important; background: #00FF00; color: #000; padding: 5px;">Developer : Mastermindx33</p>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/131045/ledFont.js"></script>
     <script src="script.js"></script>
 </body>

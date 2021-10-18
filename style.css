@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Electrolize);
+
+html, body{
+  overflow: hidden !important;
+}
+
 body {
-  background: hsla(0, 0%, 0%, 1);
+  background-color: #1d1e21;
 }
 p{
-  width:100%; 
+  width:100%;
   margin-top:5%;
   color:hsla(255,255%,255%,1);
   font-size:5em;
@@ -35,3 +40,4 @@ p{
 #led td.off {
   background: hsla(0,0%,7%,1);
 }
+
