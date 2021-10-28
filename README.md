@@ -1,3 +1,3 @@
 # BlackScroll
-Just a normal LED Scroll Footer .
+Just a normal LED Scroll Footer that you see when I hack your server.
 #### Developer : Mastermindx33
